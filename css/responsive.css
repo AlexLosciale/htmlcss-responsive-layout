@@ -36,6 +36,10 @@
     .ads{
         display: block;
     }
+
+    .presentation img {
+        float: left;
+    }
 }
 
 /*desktop */
@@ -49,7 +53,30 @@
         display: flex;
     }
 
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video{
+        width: 70%;
+        height: 400px;
+    }
+
+    .recipe-info{
+        width: 30%;
+    }
+
+    .quick-notes ul{
+        display: block;
+    }
+
     .btn{
         display: flex;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
     }
 }
