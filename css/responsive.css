@@ -1,0 +1,55 @@
+/* Soluzione qui */
+
+@media screen and (min-width: 768px){
+    #topbar {
+        align-items: start;
+        justify-content: flex-start;
+    }
+
+    .container {
+        padding-top: 3%;
+    }
+
+    .recipe-origin {
+        display: flex;
+    }
+
+    .recipe-name {
+        display: flex;
+        font-size: 32px;
+    }
+
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .quick-notes ul div {
+        min-width: calc((100% / 3) - 20px);
+    }
+    
+    .btn{
+        padding: 1% 5%;
+    }
+
+    .ads{
+        display: block;
+    }
+}
+
+/*desktop */
+
+@media screen and (min-width: 992px){
+    .recipe-name {
+        font-size: 45px;
+    }
+
+    .social-networks .label {
+        display: flex;
+    }
+
+    .btn{
+        display: flex;
+    }
+}
